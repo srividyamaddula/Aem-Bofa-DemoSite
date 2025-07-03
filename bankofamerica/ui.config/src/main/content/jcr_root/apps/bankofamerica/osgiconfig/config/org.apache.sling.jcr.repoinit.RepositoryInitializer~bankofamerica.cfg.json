@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/bankofamerica",
+        "create path (nt:unstructured) /content/dam/bankofamerica/jcr:content",
+        "set properties on /content/dam/bankofamerica/jcr:content\n  set cq:conf{String} to /conf/bankofamerica\n  set jcr:title{String} to \"Bank of America\"\nend"
+    ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bankofamerica" mode="merge"/>
+    <filter root="/content/bankofamerica" mode="merge"/>
+    <filter root="/content/dam/bankofamerica" mode="merge">
+        <exclude pattern="/content/dam/bankofamerica(/.*)?"/>
+        <include pattern="/content/dam/bankofamerica/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bankofamerica/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bankofamerica" mode="merge"/>
+</workspaceFilter>

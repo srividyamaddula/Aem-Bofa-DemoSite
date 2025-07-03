@@ -1,0 +1,11 @@
+{
+    "getTrainer": "Lakshmi",
+    "getCountDays": 5,
+    "getStudentList": [
+        "Vidya",
+        "Sucharita",
+        "Raj",
+        "Mamatha"
+    ],
+    "batchValue": "Morning Batch"
+}
